@@ -2,7 +2,7 @@ pipeline {
     agent any  // Runs on any available agent
 
     environment {
-        DOCKER_IMAGE = "mickel123/reformed-bookstore"  // Change this to your Docker image name
+        DOCKER_IMAGE = "mframe123/reformed-bookstore"  // Change this to your Docker image name
         DOCKER_CREDENTIALS = "docker-hub-credentials"  // Ensure you have Docker Hub credentials set in Jenkins
     }
 
