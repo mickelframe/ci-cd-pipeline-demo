@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> <!-- Responsive -->
+        <title>RTS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>
+                p:first-letter{
+                    font-size: 200%;
+                    color: #f44336;
+                    } 
+                
+            </style>
+    
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a> <!-- Add logo -->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul> <!-- Add links -->
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="faculty.html">FACULTY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Programs 2024</h1>
+        </section>
+
+
+        <!--Blog page content-->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/pic2.jpg">
+                    <h2>Equipping Leaders for the Church and World</h2>
+                    <p>At RTS, our mission is to provide robust theological education grounded in Scripture and the Reformed tradition. Our programs aim to equip students to serve faithfully in ministry and beyond.</p>
+                    <br>
+                    <p>From foundational theology to advanced biblical studies, our courses are designed to deepen understanding, nurture spiritual growth, and foster a heart for service.</p>
+                    <br>
+                    <p>Our online and in-person programs for 2024 include certificate courses, Master of Divinity, and other advanced degrees tailored to meet the needs of the modern church.</p>
+                    <br>
+                    <p>Join us as we prepare the next generation of pastors, missionaries, and leaders who are rooted in truth and committed to the glory of God.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment">
+                            </textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT
+                            </button>
+                        </form>
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post categories</h3>
+                    <div>
+                        <span>Systematic Theology</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Church History</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Biblical Studies</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Practical Theology</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>Apologetics</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Pastoral Ministry</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Missions</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+
+        
+
+
+
+
+
+
+
+        <!--Footer-->
+        <Section class="footer">
+            <h4>About Us</h4>
+            <p>Reformed Theological Seminary exists to glorify God by training leaders who are rooted in Scripture, <br>faithful to Christ, and equipped to advance His Kingdom.</p>
+            <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin" ></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o" ></i> for the Glory of God.</p>
+        </Section>
+
+
+        <!-----JavaScript for Toggle Menu----->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+        
+    </body>
+</html>
